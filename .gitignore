@@ -6,3 +6,10 @@ __pycache__/
 node_modules/
 .claude/settings.local.json
 audits/
+
+# Local-only context — never sync these across machines
+context/vattenfall/
+context/bth/
+
+# API reference files that may contain keys or endpoints
+references/*-api.md
