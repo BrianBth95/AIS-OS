@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "Read(C:\\Dev\\**)",
+      "Glob(C:\\Dev\\**)",
+      "Grep(C:\\Dev\\**)",
+      "PowerShell(Get-ChildItem C:\\Dev\\*)",
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell(Get-Content *)",
+      "PowerShell(Select-String *)",
+      "PowerShell(Test-Path *)",
+      "PowerShell(Resolve-Path *)",
+      "PowerShell(Measure-Object *)",
+      "PowerShell(git log *)",
+      "PowerShell(git remote *)",
+      "PowerShell(git status)",
+      "PowerShell(git branch *)",
+      "PowerShell(dotnet --version)",
+      "PowerShell(dotnet list *)",
+      "PowerShell(node --version)",
+      "PowerShell(ng version)"
+    ]
+  }
+}
